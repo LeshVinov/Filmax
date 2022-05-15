@@ -418,6 +418,10 @@ a {
   border-radius: 40px;
 }
 
+input {
+  text-indent: 20px;
+}
+
 .header {
   background: url("../img/gradient.png") no-repeat center/cover;
   padding: 1.9375rem 0;
@@ -560,7 +564,7 @@ a {
 }
 
 .section-film {
-  background: url("../img/8.png") no-repeat bottom/cover;
+  background: url("../img/8.png") no-repeat center;
   padding: 9.125rem 0;
 }
 
@@ -773,5 +777,274 @@ a {
   background-color: #181818;
   margin-top: 17px;
   margin-right: 1.25rem;
+}
+
+.section-learn-more {
+  background: url("../img/gradient.png") no-repeat top/cover;
+  padding: 2.8125rem 0;
+}
+
+.section .learn-more__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .learn-more-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .learn-more-photos__item {
+  margin-bottom: 2.5rem;
+}
+
+.section .learn-more-photos__item:last-child {
+  margin-bottom: 0;
+}
+
+.section .learn-more-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .learn-more-text__heading {
+  max-width: 43.125rem;
+  text-align: center;
+  font-size: 2.875rem;
+  margin-bottom: 2.1875rem;
+}
+
+.section .learn-more-text__desc {
+  max-width: 41.0625rem;
+  text-align: center;
+  font-size: 1.375rem;
+  margin-bottom: 3rem;
+}
+
+.section .learn-more-text__button {
+  padding: 1.4375rem 2.9375rem;
+}
+
+.section-benefits {
+  padding: 8.6875rem 0 4.75rem;
+}
+
+.section-benefits .benefits-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-benefits .benefits-content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-benefits .benefits-content-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.25rem;
+}
+
+.section-benefits .benefits-content-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.section-benefits .benefits-content-list__img {
+  margin-right: 1.5rem;
+}
+
+.section-benefits .benefits-content-list__text {
+  font-size: 1.625rem;
+}
+
+.section-enter-form {
+  background: url("../img/gradient.png") no-repeat top/cover;
+  padding: 8.6875rem 0;
+}
+
+.section-enter-form .enter-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-enter-form .enter-form__form {
+  max-width: 28.875rem;
+}
+
+.section-enter-form .enter-form__heading {
+  max-width: 30.8125rem;
+  font-size: 2.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-enter-form .enter-form__text {
+  max-width: 30.625rem;
+  font-size: 1.375rem;
+  margin-bottom: 4.6875rem;
+}
+
+.section-enter-form .enter-form__button {
+  padding: 1.25rem 4.3125rem;
+}
+
+.section-enter-form .form-case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-enter-form .form-case--email {
+  margin-bottom: 1.8125rem;
+}
+
+.section-enter-form .form-case--half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.8125rem;
+}
+
+.section-enter-form .form-case__label {
+  font-size: 1.125rem;
+  margin-bottom: 0.8125rem;
+}
+
+.section-enter-form .form-case__input {
+  max-width: 13.625rem;
+  width: 100%;
+  height: 3.375rem;
+}
+
+.section-enter-form .form-case__input--wide {
+  max-width: 28.875rem;
+  width: 100%;
+}
+
+.section-enter-form .form-checkcase {
+  font-weight: bold;
+}
+
+.section-enter-form .form-checkcase-first {
+  margin-bottom: 2.0625rem;
+}
+
+.section-enter-form .form-checkcase-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.8125rem;
+}
+
+.section-enter-form .form-checkcase__heading {
+  font-size: 1.125rem;
+  margin-bottom: 1.875rem;
+}
+
+.section-enter-form .form-checkcase-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-enter-form .form-checkcase-radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 1.25rem;
+}
+
+.section-enter-form .form-checkcase__input {
+  width: 22px;
+  height: 22px;
+  margin-right: 0.6875rem;
+}
+
+.footer {
+  padding: 3.5rem 0;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-social__img {
+  margin-right: 1.25rem;
+}
+
+.footer-confidence {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
